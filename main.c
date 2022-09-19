@@ -4,14 +4,14 @@
 #include <unistd.h>
 #include <semaphore.h>
 
-#define THREADS 50 
+#define THREADS 70
 
 long memoria_compartilhada = 0;
 
 void *threadFunc(void *arg)
 {   
 	int a, b;
-    for (long j = 0; j < 10000; j++) {	
+    for (long j = 0; j < 100000; j++) {	
 		a = memoria_compartilhada;
 		b = 1; 
         memoria_compartilhada = a + b;
