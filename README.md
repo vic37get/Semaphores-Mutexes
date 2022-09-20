@@ -1,5 +1,5 @@
 # Semaphores-Mutexes
-Aplicação para demonstração das primitivas de sincronização: semáforos e mutexes para garantir sincronização entre processos e evitar condições de corrida.
+:vertical_traffic_light::stop_sign: Aplicação para demonstração das primitivas de sincronização: semáforos e mutexes para garantir sincronização entre processos e evitar condições de corrida.
 ## Execução
 A execução do programa se dá pelo arquivo main.c e é feita em duas etapas da seguinte forma:<br/>
 Compilação: `gcc main.c -o main -lpthread`<br/>
